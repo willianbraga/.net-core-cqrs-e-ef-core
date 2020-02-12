@@ -1,0 +1,16 @@
+/Users/wbraga/Documents/Dev/ToDoAPI/Todo.Domain/bin/Debug/netstandard2.0/Todo.Domain.deps.json
+/Users/wbraga/Documents/Dev/ToDoAPI/Todo.Domain/bin/Debug/netstandard2.0/Todo.Domain.dll
+/Users/wbraga/Documents/Dev/ToDoAPI/Todo.Domain/bin/Debug/netstandard2.0/Todo.Domain.pdb
+/Users/wbraga/Documents/Dev/ToDoAPI/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.csprojAssemblyReference.cache
+/Users/wbraga/Documents/Dev/ToDoAPI/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.AssemblyInfoInputs.cache
+/Users/wbraga/Documents/Dev/ToDoAPI/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.AssemblyInfo.cs
+/Users/wbraga/Documents/Dev/ToDoAPI/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.dll
+/Users/wbraga/Documents/Dev/ToDoAPI/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.pdb
+/Users/wbraga/Documents/Dev/Todo/Todo.Domain/bin/Debug/netstandard2.0/Todo.Domain.deps.json
+/Users/wbraga/Documents/Dev/Todo/Todo.Domain/bin/Debug/netstandard2.0/Todo.Domain.dll
+/Users/wbraga/Documents/Dev/Todo/Todo.Domain/bin/Debug/netstandard2.0/Todo.Domain.pdb
+/Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.csprojAssemblyReference.cache
+/Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.AssemblyInfoInputs.cache
+/Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.AssemblyInfo.cs
+/Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.dll
+/Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.pdb

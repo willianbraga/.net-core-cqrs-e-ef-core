@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Todo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Todo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Todo.Domain.dll": {}
+        }
+      },
+      "Todo.Domain.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Todo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Todo.Domain.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Todo.Domain.Infra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Todo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Todo.Domain/Todo.Domain.csproj",
+      "msbuildProject": "../Todo.Domain/Todo.Domain.csproj"
+    },
+    "Todo.Domain.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Todo.Domain.Infra/Todo.Domain.Infra.csproj",
+      "msbuildProject": "../Todo.Domain.Infra/Todo.Domain.Infra.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Todo.Domain >= 1.0.0",
+      "Todo.Domain.Infra >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/wbraga/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/Todo.Domain.Api.csproj",
+      "projectName": "Todo.Domain.Api",
+      "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/Todo.Domain.Api.csproj",
+      "packagesPath": "/Users/wbraga/.nuget/packages/",
+      "outputPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/wbraga/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj": {
+              "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj"
+            },
+            "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj": {
+              "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
