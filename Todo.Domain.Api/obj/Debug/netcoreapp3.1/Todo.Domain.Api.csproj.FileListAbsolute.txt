@@ -39,3 +39,4 @@
 /Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/obj/Debug/netcoreapp3.1/Todo.Domain.Api.csproj.CopyComplete
 /Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/obj/Debug/netcoreapp3.1/Todo.Domain.Api.dll
 /Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/obj/Debug/netcoreapp3.1/Todo.Domain.Api.pdb
+/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/bin/Debug/netcoreapp3.1/Flunt.dll
