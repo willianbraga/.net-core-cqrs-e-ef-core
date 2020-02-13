@@ -22,5 +22,6 @@ namespace Todo.Domain.Api
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+    
     }
 }
