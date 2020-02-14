@@ -8,7 +8,12 @@ using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Handlers
 {
-    public class TodoHandler : Notifiable, IHandler<CreateTodoCommand>, IHandler<UpdateTodoCommand>, IHandler<MarkTodoAsDoneCommand>, IHandler<MarkTodoAsUndoneCommand>
+    public class TodoHandler : 
+            Notifiable, 
+            IHandler<CreateTodoCommand>, 
+            IHandler<UpdateTodoCommand>, 
+            IHandler<MarkTodoAsDoneCommand>, 
+            IHandler<MarkTodoAsUndoneCommand>
     {
         private readonly ITodoRepository _repository;
 
