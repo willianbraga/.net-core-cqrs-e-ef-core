@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Todo.Domain.Commands;
 using Todo.Domain.Entities;
 using Todo.Domain.Handlers;
-using Todo.Domain.Tests.Repository;
+using Todo.Domain.Tests.Repositories;
 
 namespace Todo.Domain.Tests.HandlerTests
 {

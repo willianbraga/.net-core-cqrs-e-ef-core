@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/Todo.Domain.Api.csproj": {}
+    "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {}
   },
   "projects": {
-    "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/Todo.Domain.Api.csproj": {
+    "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/Todo.Domain.Api.csproj",
+        "projectUniqueName": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
         "projectName": "Todo.Domain.Api",
-        "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/Todo.Domain.Api.csproj",
-        "packagesPath": "/Users/wbraga/.nuget/packages/",
-        "outputPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Api/obj/",
+        "projectPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
+        "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
+        "outputPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/wbraga/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -25,11 +25,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj": {
-                "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj"
+              "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
+                "projectPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj"
               },
-              "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj": {
-                "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj"
+              "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj"
               }
             }
           }
@@ -42,6 +42,34 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,21 +88,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj": {
+    "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj",
+        "projectUniqueName": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
         "projectName": "Todo.Domain.Infra",
-        "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj",
-        "packagesPath": "/Users/wbraga/.nuget/packages/",
-        "outputPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain.Infra/obj/",
+        "projectPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+        "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
+        "outputPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/wbraga/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -85,8 +113,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj": {
-                "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj"
+              "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj"
               }
             }
           }
@@ -100,6 +128,30 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -117,21 +169,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj": {
+    "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj",
+        "projectUniqueName": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj",
         "projectName": "Todo.Domain",
-        "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj",
-        "packagesPath": "/Users/wbraga/.nuget/packages/",
-        "outputPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/",
+        "projectPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
+        "outputPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/wbraga/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -161,7 +213,7 @@
             },
             "flunt": {
               "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[1.0.5, )"
             }
           },
           "imports": [
@@ -174,7 +226,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

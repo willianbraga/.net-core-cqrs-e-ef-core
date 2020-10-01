@@ -1,9 +1,6 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Todo.Domain.Commands;
 using Todo.Domain.Entities;
-using Todo.Domain.Handlers;
-using Todo.Domain.Tests.Repository;
 
 namespace Todo.Domain.Tests.EntityTests
 {

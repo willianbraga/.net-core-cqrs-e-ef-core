@@ -29,7 +29,7 @@ namespace Todo.Domain.Handlers
                 return new GenericCommandResult("Opa, temos um erro aqui, por favor verifique", false, command.Notifications);
             }
 
-            TodoItem todo = new TodoItem(command.Title, command.Date, command.User);
+            var todo = new TodoItem(command.Title, command.Date, command.User);
 
             _repository.Create(todo);
 

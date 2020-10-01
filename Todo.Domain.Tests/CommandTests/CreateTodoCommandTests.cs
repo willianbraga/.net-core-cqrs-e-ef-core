@@ -8,15 +8,15 @@ namespace Todo.Domain.Tests.CommandTests
     public class CreateTodoCommandTests
     {
         private readonly CreateTodoCommand _invalidCommand = new CreateTodoCommand("", "", DateTime.Now);
-        private readonly CreateTodoCommand _validCommand = new CreateTodoCommand("Passear com Cachoro", "Willian", DateTime.Now);
+        private readonly CreateTodoCommand _validCommand = new CreateTodoCommand("Titulo da Tarefa", "Wilian Braga", DateTime.Now);
         public CreateTodoCommandTests()
         {
             _invalidCommand.Validate();
-            _validCommand.Validate();    
+            _validCommand.Validate();
         }
 
         [TestMethod]
-        public void Given_a_invalid_command()
+        public void Given_an_invalid_command()
         {
             Assert.AreEqual(_invalidCommand.Valid, false);
         }

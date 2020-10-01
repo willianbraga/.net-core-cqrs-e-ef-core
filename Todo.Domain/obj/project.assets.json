@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Flunt/1.0.4": {
+      "Flunt/1.0.5": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Flunt.dll": {}
@@ -38,14 +38,14 @@
     }
   },
   "libraries": {
-    "Flunt/1.0.4": {
-      "sha512": "zsKA3Wol1+UeQBYtXuO56+ua6DBUpD5dcp3iAa86W5WcMLOWBMaDXKdqIrrLNgQUOW/U/svecb4ldgqwnC9XDQ==",
+    "Flunt/1.0.5": {
+      "sha512": "2p1B/LLsMf0bGwyMQK48/278OXTodXn3HyTU1v7fr/x0bNfrVSNC1Do1PxbgiOlDLChtAbtt1kPgXFqUnGAagg==",
       "type": "package",
-      "path": "flunt/1.0.4",
+      "path": "flunt/1.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "flunt.1.0.4.nupkg.sha512",
+        "flunt.1.0.5.nupkg.sha512",
         "flunt.nuspec",
         "lib/netstandard2.0/Flunt.dll"
       ]
@@ -198,23 +198,23 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "flunt >= 1.0.4"
+      "flunt >= 1.0.5"
     ]
   },
   "packageFolders": {
-    "/Users/wbraga/.nuget/packages/": {}
+    "C:\\Users\\Lolla\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj",
+      "projectUniqueName": "D:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj",
       "projectName": "Todo.Domain",
-      "projectPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/Todo.Domain.csproj",
-      "packagesPath": "/Users/wbraga/.nuget/packages/",
-      "outputPath": "/Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/",
+      "projectPath": "D:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+      "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
+      "outputPath": "D:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/wbraga/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -244,7 +244,7 @@
           },
           "flunt": {
             "target": "Package",
-            "version": "[1.0.4, )"
+            "version": "[1.0.5, )"
           }
         },
         "imports": [
@@ -257,7 +257,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

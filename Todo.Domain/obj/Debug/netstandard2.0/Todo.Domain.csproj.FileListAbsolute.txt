@@ -14,3 +14,12 @@
 /Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.AssemblyInfo.cs
 /Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.dll
 /Users/wbraga/Documents/Dev/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.Domain.pdb
+D:\Developer\Projects\Study\Todo\Todo.Domain\bin\Debug\netstandard2.0\Todo.Domain.deps.json
+D:\Developer\Projects\Study\Todo\Todo.Domain\bin\Debug\netstandard2.0\Todo.Domain.dll
+D:\Developer\Projects\Study\Todo\Todo.Domain\bin\Debug\netstandard2.0\Todo.Domain.pdb
+D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.csprojAssemblyReference.cache
+D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.AssemblyInfoInputs.cache
+D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.AssemblyInfo.cs
+D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.csproj.CoreCompileInputs.cache
+D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.dll
+D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.pdb
