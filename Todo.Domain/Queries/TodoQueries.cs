@@ -20,9 +20,10 @@ namespace Todo.Domain.Queries
         }
         public static Expression<Func<TodoItem, bool>> GetByPeriod(string user, DateTime date, bool done)
         {
+            var dateTime = date.ToString("dd/MM/yyy");
             return x =>
                 x.User == user &&
-                x.Date == date &&
+                x.Date.ToString("dd/MM/yyy") == dateTime &&
                 x.Done == done;
         }
         public static Expression<Func<TodoItem, bool>> GetById(string user, Guid id)
