@@ -38,7 +38,7 @@ namespace Todo.Domain.Tests.Repositories
 
         public void Update(TodoItem todo)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

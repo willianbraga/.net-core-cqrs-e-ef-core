@@ -5978,11 +5978,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
+      "projectUniqueName": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
       "projectName": "Todo.Domain.Api",
-      "projectPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
+      "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
       "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-      "outputPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Api\\obj\\",
+      "outputPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5996,11 +5996,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
-              "projectPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj"
+            "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
+              "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj"
             },
-            "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
-              "projectPath": "d:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj"
+            "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+              "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj"
             }
           }
         }

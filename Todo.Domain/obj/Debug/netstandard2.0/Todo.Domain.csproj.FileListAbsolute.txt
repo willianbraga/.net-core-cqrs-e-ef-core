@@ -23,3 +23,12 @@ D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domai
 D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.csproj.CoreCompileInputs.cache
 D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.dll
 D:\Developer\Projects\Study\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.pdb
+d:\Developer\Projects\Study\dotnet\Todo\Todo.Domain\bin\Debug\netstandard2.0\Todo.Domain.deps.json
+d:\Developer\Projects\Study\dotnet\Todo\Todo.Domain\bin\Debug\netstandard2.0\Todo.Domain.dll
+d:\Developer\Projects\Study\dotnet\Todo\Todo.Domain\bin\Debug\netstandard2.0\Todo.Domain.pdb
+d:\Developer\Projects\Study\dotnet\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.csprojAssemblyReference.cache
+d:\Developer\Projects\Study\dotnet\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.AssemblyInfoInputs.cache
+d:\Developer\Projects\Study\dotnet\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.AssemblyInfo.cs
+d:\Developer\Projects\Study\dotnet\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.csproj.CoreCompileInputs.cache
+d:\Developer\Projects\Study\dotnet\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.dll
+d:\Developer\Projects\Study\dotnet\Todo\Todo.Domain\obj\Debug\netstandard2.0\Todo.Domain.pdb

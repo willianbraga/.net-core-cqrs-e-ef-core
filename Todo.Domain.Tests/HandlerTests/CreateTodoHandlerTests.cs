@@ -12,24 +12,27 @@ namespace Todo.Domain.Tests.HandlerTests
         private readonly CreateTodoCommand _invalidCommand = new CreateTodoCommand("", "", DateTime.Now);
         private readonly CreateTodoCommand _validCommand = new CreateTodoCommand("Titulo da Tarefa", "Willian", DateTime.Now);
         private readonly TodoHandler _handler = new TodoHandler(new FakeTodoRepository());
-        private GenericCommandResult _result = new GenericCommandResult();
+        private GenericCommandResult _validResult = new GenericCommandResult();
+        private GenericCommandResult _invalidResult = new GenericCommandResult();
 
-        public CreateTodoHandlerTests() { }
+
+        public CreateTodoHandlerTests()
+        {
+            _invalidResult = (GenericCommandResult)_handler.Handle(_invalidCommand);
+            _validResult = (GenericCommandResult)_handler.Handle(_validCommand);
+        }
 
         [TestMethod]
         public void Given_a_invalid_command_must_stop_running()
         {
-            _result = (GenericCommandResult)_handler.Handle(_invalidCommand);
-
-            Assert.AreEqual(_result.Success, false);
+            Assert.AreEqual(_invalidResult.Success, false);
         }
-        
+
         [TestMethod]
         public void Given_a_valid_command_must_create_todo()
         {
-            _result = (GenericCommandResult)_handler.Handle(_validCommand);
 
-            Assert.AreEqual(_result.Success, true);
+            Assert.AreEqual(_validResult.Success, true);
 
         }
     }

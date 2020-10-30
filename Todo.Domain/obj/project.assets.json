@@ -207,11 +207,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+      "projectUniqueName": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj",
       "projectName": "Todo.Domain",
-      "projectPath": "D:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+      "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj",
       "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-      "outputPath": "D:\\Developer\\Projects\\Study\\Todo\\Todo.Domain\\obj\\",
+      "outputPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
