@@ -57,8 +57,9 @@ namespace Todo.Domain.Infra.Repositories
         {
             return _context.Todos
                 .AsNoTracking()
-                .Where(TodoQueries.GetByPeriod(user,date,done))
-                .OrderBy(x => x.Date);        }
+                .Where(TodoQueries.GetByPeriod(user, date, done))
+                .OrderBy(x => x.Date);
+        }
 
         public void Update(TodoItem todo)
         {

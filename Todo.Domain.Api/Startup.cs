@@ -56,13 +56,13 @@ namespace Todo.Domain.Api
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                     .AddJwtBearer(opt =>
                    {
-                       opt.Authority = "https://securetoken.google.com/todo-project-study";
+                       opt.Authority = "https://securetoken.google.com/agenda-will";
                        opt.TokenValidationParameters = new TokenValidationParameters
                        {
                            ValidateIssuer = true,
-                           ValidIssuer = "https://securetoken.google.com/todo-project-study",
+                           ValidIssuer = "https://securetoken.google.com/agenda-will",
                            ValidateAudience = true,
-                           ValidAudience = "todo-project-study",
+                           ValidAudience = "agenda-will",
                            ValidateLifetime = true
                        };
                    });

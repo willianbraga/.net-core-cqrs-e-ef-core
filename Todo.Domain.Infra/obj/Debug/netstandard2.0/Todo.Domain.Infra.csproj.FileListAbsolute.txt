@@ -29,3 +29,15 @@ D:\Developer\Projects\Study\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo
 D:\Developer\Projects\Study\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.csproj.CopyComplete
 D:\Developer\Projects\Study\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.dll
 D:\Developer\Projects\Study\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.pdb
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\bin\Debug\netstandard2.0\Todo.Domain.Infra.deps.json
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\bin\Debug\netstandard2.0\Todo.Domain.Infra.dll
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\bin\Debug\netstandard2.0\Todo.Domain.Infra.pdb
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\bin\Debug\netstandard2.0\Todo.Domain.dll
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\bin\Debug\netstandard2.0\Todo.Domain.pdb
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.csprojAssemblyReference.cache
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.AssemblyInfoInputs.cache
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.AssemblyInfo.cs
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.csproj.CoreCompileInputs.cache
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.csproj.CopyComplete
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.dll
+D:\Developer\Projects\Study\dotnet\Todo\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.pdb

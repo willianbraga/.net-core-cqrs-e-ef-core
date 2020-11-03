@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {}
+    "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {}
   },
   "projects": {
-    "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {
+    "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
         "projectName": "Todo.Domain.Api",
-        "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
+        "projectPath": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
         "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-        "outputPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\obj\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,11 +25,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
-                "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj"
+              "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
+                "projectPath": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj"
               },
-              "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
-                "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj"
+              "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
+    "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
         "projectName": "Todo.Domain.Infra",
-        "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+        "projectPath": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
         "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-        "outputPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\obj\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -113,8 +113,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
-                "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj"
+              "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj"
               }
             }
           }
@@ -173,14 +173,14 @@
         }
       }
     },
-    "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+    "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj",
         "projectName": "Todo.Domain",
-        "projectPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+        "projectPath": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\Todo.Domain.csproj",
         "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-        "outputPath": "d:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\obj\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\dotnet\\Todo\\Todo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"

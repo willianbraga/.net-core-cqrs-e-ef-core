@@ -22,7 +22,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] ITodoRepository repository
         )
         {
-            var user = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            var user = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return repository.GetAll(user);
         }
         [Route("done")]
@@ -31,7 +31,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] ITodoRepository repository
         )
         {
-            var user = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            var user = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return repository.GetAllDone(user);
         }
         [Route("undone")]
@@ -40,7 +40,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] ITodoRepository repository
         )
         {
-            var user = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            var user = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return repository.GetAllUndone(user);
         }
         [Route("done/today")]
@@ -49,7 +49,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] ITodoRepository repository
         )
         {
-            var user = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            var user = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return repository.GetByPeriod(
                 user,
                 DateTime.Now.Date,
@@ -62,7 +62,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] ITodoRepository repository
         )
         {
-            var user = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            var user = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return repository.GetByPeriod(
                 user,
                 DateTime.Now.Date,
@@ -75,7 +75,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] ITodoRepository repository
         )
         {
-            var user = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            var user = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return repository.GetByPeriod(
                 user,
                 DateTime.Now.Date.AddDays(1),
@@ -88,7 +88,7 @@ namespace Todo.Domain.Api.Controllers
         [FromServices] ITodoRepository repository
         )
         {
-            var user = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            var user = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return repository.GetByPeriod(
                 user,
                 DateTime.Now.Date.AddDays(1),
@@ -102,7 +102,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] TodoHandler handler
         )
         {
-            command.User = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            command.User = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             ;
             return (GenericCommandResult)handler.Handle(command);
         }
@@ -113,7 +113,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] TodoHandler handler
         )
         {
-            command.User = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            command.User = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return (GenericCommandResult)handler.Handle(command);
         }
         [Route("mark-as-done")]
@@ -123,7 +123,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] TodoHandler handler
         )
         {
-            command.User = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            command.User = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return (GenericCommandResult)handler.Handle(command);
         }
         [Route("mark-as-undone")]
@@ -133,7 +133,7 @@ namespace Todo.Domain.Api.Controllers
             [FromServices] TodoHandler handler
         )
         {
-            command.User = User.Claims.FirstOrDefault(x => x.Type == "user_id").Value;
+            command.User = User.Claims.FirstOrDefault(x => x.Type == "name").Value;
             return (GenericCommandResult)handler.Handle(command);
         }
     }
